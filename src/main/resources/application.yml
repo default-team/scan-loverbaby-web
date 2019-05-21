@@ -1,0 +1,13 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://114.116.84.68:8761/eureka/
+server:
+  port: 9091
+spring:
+  application:
+    name: scan-compute-web
+
+feign:
+  hystrix:
+    enabled: true
